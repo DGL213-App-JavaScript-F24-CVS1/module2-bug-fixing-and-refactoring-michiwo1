@@ -13,7 +13,6 @@
         const undoButton = document.querySelector('#undo');
         const rotateButton = document.querySelector('#rotate');
         const colorSelectButtons = document.querySelectorAll(".color-select");
-        const playerScoreText = document.querySelector('#score-text'); 
 
         // Constants
         const CELL_COLORS = {
