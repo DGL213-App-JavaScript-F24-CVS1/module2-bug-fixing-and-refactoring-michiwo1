@@ -36,7 +36,8 @@
         // *****************************************************************************
         // #region Game Logic
 
-        function startGame(startingGrid = []) {
+        function startGame() {
+            let startingGrid = initializeGrid();
             if (startingGrid.length === 0) {
                 startingGrid = initializeGrid();
             }
@@ -48,7 +49,7 @@
             // Implementation here
         }
 
-        function initializeHistory(startingGrid) {
+        function initializeHistory() {
             // Implementation here
         }
 
