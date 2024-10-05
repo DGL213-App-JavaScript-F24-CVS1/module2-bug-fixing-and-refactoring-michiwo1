@@ -65,7 +65,7 @@
             // Implementation here
         }
 
-        function updateGridAt(mousePositionX, mousePositionY) {
+        function updateGridAt() {
             // Implementation here
         }
 
