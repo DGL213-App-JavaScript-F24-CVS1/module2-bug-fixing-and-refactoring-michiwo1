@@ -110,13 +110,6 @@
         // *****************************************************************************
         // #region Helper Functions
 
-        function convertCartesiansToGrid(xPos, yPos) {
-            return {
-                column: Math.floor(xPos / CELL_WIDTH),
-                row: Math.floor(yPos / CELL_HEIGHT)
-            };
-        }
-
         function chooseRandomPropertyFrom(object) {
             const keys = Object.keys(object);
             return object[keys[Math.floor(keys.length * Math.random())]]; // Truncates to integer
