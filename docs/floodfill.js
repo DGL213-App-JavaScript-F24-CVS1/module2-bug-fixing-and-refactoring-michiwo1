@@ -110,11 +110,6 @@
         // *****************************************************************************
         // #region Helper Functions
 
-        function chooseRandomPropertyFrom(object) {
-            const keys = Object.keys(object);
-            return object[keys[Math.floor(keys.length * Math.random())]]; // Truncates to integer
-        }
-
         function arraysAreEqual(arr1, arr2) {
             if (arr1.length != arr2.length) { return false; }
             else {
