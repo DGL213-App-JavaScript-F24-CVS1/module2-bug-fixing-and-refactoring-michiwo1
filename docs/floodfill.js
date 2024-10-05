@@ -63,8 +63,11 @@
             // Implementation here
         }
 
-        function updateGridAt() {
-            // Implementation here
+        function updateGridAt(mousePositionX, mousePositionY) {
+            const column = Math.floor(mousePositionX / (canvas.width / CELLS_PER_AXIS));
+            const row = Math.floor(mousePositionY / (canvas.height / CELLS_PER_AXIS));
+            grids[0][row * CELLS_PER_AXIS + column] = replacementColor;
+            render(grids[0]);
         }
 
         function updatePlayerScore() {
