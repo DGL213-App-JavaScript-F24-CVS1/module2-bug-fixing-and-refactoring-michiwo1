@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+
+    #game-status {
+      margin-top: 10px;
+    }
+
+    #controls {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Tic Tac Toe</h1>
+    <p>A Two-Player Game</p>
+  </header>
+
+  <main>
+    <div>
+      <canvas width="300" height="300"></canvas>
+    </div>
+    <div id="game-status">
+      <p id="turn-indicator">Current Turn: <span id="current-player">X</span></p>
+      <p id="status-message"></p>
+    </div>
+    <div id="controls">
+      <button id="restart">Restart Game</button>
+      <button id="undo">Undo</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Tic Tac Toe - A DGL 213 Game</p>
+  </footer>
+  <script src="tictactoe.js"></script>
+</body>
+
+</html>
