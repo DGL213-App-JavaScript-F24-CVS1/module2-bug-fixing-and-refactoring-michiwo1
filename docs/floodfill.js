@@ -61,7 +61,7 @@
             // Implementation here
         }
 
-        function render(grid) {
+        function render() {
             // Implementation here
         }
 
